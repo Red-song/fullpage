@@ -193,12 +193,12 @@ $(function(){
    	$('.all-list').slideToggle();
    })
 
-	$(".bg").interactive_bg({
+	/*$(".bg").interactive_bg({
        strength: 25,
        scale: 1.02,
        animationSpeed: "120ms",
        contain: true,
        wrapContent:true
-   });
+   });*/
 
 })
