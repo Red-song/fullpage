@@ -197,9 +197,9 @@ $(function(){
         $('.section3-top').css({'top':'20%'});
         $('.section3-middle').css({'top':'25%'});
         $('.section3-bottom').css({'top':'30%'});
-        $('.len1').css({'height':40});
-        $('.len2').css({'height':40});
-        $('.len3').css({'height':40})
+        $('.len1').css({'height':60});
+        $('.len2').css({'height':60});
+        $('.len3').css({'height':60})
         $('.lenimgsm').css({'width':50,'height':50});
         $('.section4-top').css({'width':200,'height':100})
         $('.section4-middle').css({'margin-top':40})
@@ -209,7 +209,7 @@ $(function(){
         $('.dai').css({'width':30,'height':40,'right':42})
         $('.hua').css({'width':50,'height':30,'right':35})
         $('.section6-bottom').css({'height':100});
-        $('button').css({'display':'none'})
+        $('.button').css({'display':'none'})
     }
 
    $('.nav-right').click(function(){
