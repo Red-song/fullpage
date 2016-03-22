@@ -209,7 +209,7 @@ $(function(){
         $('.dai').css({'width':30,'height':40,'right':42})
         $('.hua').css({'width':50,'height':30,'right':35})
         $('.section6-bottom').css({'height':100});
-        $('.button').css({'display':'none'})
+        $('button').css({'display':'none'})
     }
 
    $('.nav-right').click(function(){
