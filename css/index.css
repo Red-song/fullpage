@@ -234,30 +234,27 @@ img{
 	width:252px;
 	height:194px;
 	position: absolute;
-	top:200px;
+	top:150px;
 	right:130px;
 }
 .s5img2{
 	right:125px;
 }
-.dai{
+.dai{ 
 	width:102px;
 	height:120px;
 	position: absolute;
-	top:250px;
+	top:160px;
 	right:200px;
 }
 .hua{
 	position: absolute;
 	width:200px;
 	height:150px;
-	top:220px;
+	top:180px;
 	right:155px;
 }
-.hua img{
-	width:100%;
-	height:100%;
-}
+
 .section6-top{
 	font:4em/1em "Helvetica Black" ;
 	color:white;
@@ -267,12 +264,13 @@ img{
 	text-align: center;
 }
 .section6-middle{
-	width:100%;
-	text-align: center;
+	width:80%;
+	margin:0 auto;
 	color:white;
 	font:1em/1em "Helvetica Black";
 	position: absolute;
 	top:200px;
+	left:10%;
 }
 .section6-bottom{
 	position: absolute;
@@ -311,7 +309,7 @@ img{
 }
 
 .section7-bottom{
-	width:100%;
+width:100%;
 position: absolute;
 top:300px;
 }

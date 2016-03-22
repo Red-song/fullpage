@@ -168,7 +168,7 @@ $(function(){
           move('.dai').y(230).duration(500).end(function(){
             move('.dai').y(-180).duration(800).end(function(){
               $('.s5img1').css({'zIndex':100});
-              move('.dai').y(-40).duration(800).end(
+              move('.dai').y(-20).duration(800).end(
                 function(){
             $('.hua').css({'zIndex':102});
             move('.hua').scale(1.3).duration(100).end();
@@ -188,25 +188,29 @@ $(function(){
 			}
 	})
 
-  /* if(document.documentElement.clientWidth<500){
+     if(document.documentElement.clientWidth<500){
         $('body').css({'fontSize':8});
         $('.section1-middle').css({'width':'50%'});
-        $('.one').css({'height':'10%'});
-        $('.two').css({'height':'10%'});
-        $('.three').css({'height':'10%'});
+        $('.one').css({'height':50});
+        $('.two').css({'height':50});
+        $('.three').css({'height':50});
         $('.section3-top').css({'top':'20%'});
         $('.section3-middle').css({'top':'25%'});
         $('.section3-bottom').css({'top':'30%'});
-        $('.len1').css({'height':'8%'});
-        $('.len2').css({'height':'8%'});
-        $('.len3').css({'height':'8%'})
-        $('.lenimgsm').css({'width':'10%','height':'10%'});
-        var w=$(window).height();
-        $('.section-top').css({'height':'w/3'+'px'})
-        $('.section4-middle').css({'margin-top':'10%'})
-        $('.section4-bottom').css({'margin-top':'10%'})
-        $('.section4-last').css({'margin-top':'10%'})
-    }*/
+        $('.len1').css({'height':40});
+        $('.len2').css({'height':40});
+        $('.len3').css({'height':40})
+        $('.lenimgsm').css({'width':50,'height':50});
+        $('.section4-top').css({'width':200,'height':100})
+        $('.section4-middle').css({'margin-top':40})
+        $('.section4-last').css({'margin-top':-40});
+        $('.s5img1').css({'width':100,'height':80,'right':10})
+        $('.s5img2').css({'width':100,'height':80,'right':10})
+        $('.dai').css({'width':30,'height':40,'right':42})
+        $('.hua').css({'width':50,'height':30,'right':35})
+        $('.section6-bottom').css({'height':100});
+        $('button').css({'display':'none'})
+    }
 
    $('.nav-right').click(function(){
    	$('.all-list').slideToggle();
