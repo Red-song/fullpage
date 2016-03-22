@@ -2,11 +2,15 @@
 body{
 	margin:0;
 	padding:0;
-	font:19px/1em "Coudy Stout";
+	font:20px/1em "Coudy Stout";
 }
 a{
 	text-decoration: none;
 	color:black;
+}
+img{
+	width:100%;
+	height:100%;
 }
 .nav{
 	width:100%;
@@ -21,7 +25,7 @@ a{
 	float:right;
 	margin-left: 10px;
 	line-height: 60px;
-	font-size: 19px/1em;
+	font-size: 1em;
 	cursor: pointer;
 }
 .all-list{
@@ -35,7 +39,7 @@ a{
 	line-height: 60px;
 	float:left;
 	text-align: center;
-	font-size:18px;
+	font-size:1em;
 }
 
 #section1{
@@ -64,77 +68,74 @@ a{
 }
  .section1-top,.section1-middle{
 	width:100%;
-	
-	margin-top: 10px;
+	margin:10px auto 10px;
 	text-align:center; 
 	color:white;
-	font:80px/1em "Helvetica Black" ;
+	font:4em/1em "Helvetica Black" ;
 }
 .section1-middle{
-	margin-top: 0px;
 	color:#67AF32;
 }
 .section1-bottom{
-
-	font:20px/1em "Helvetica Black" ;
-  color:white;
-	width:400px;
+	font:1em/1em "Helvetica Black" ;
+    color:white;
+	width:80%;
 	margin:0 auto;
 	text-align: center;
 }
 
 .section2-top,.section2-middle,.section2-last{
 	width:70%;
-	
 	color:#24354C;
-	font:80px/1em "Helvetica Black" ;
-	margin-left: 60px;
+	font:4em/1em "Helvetica Black" ;
+	margin-left: 8%;
 }
 .section2-bottom{
 	width:70%;
-	
 	color:white;
-	font:80px/1em "Helvetica Black" ;
-	margin-left: 60px;
+	font:4em/1em "Helvetica Black" ;
+	margin-left: 8%;
+	/* margin-top:6%; */
 }
 .section2-last{
-  font-size:18px;
+  font-size:1em;
   color:white;
 }
+
 .one,.two,.three{
 	display: inline-block;
-	width:20%;
-	height:145px;
+	width:15%;
+	height:20%;
 	position:absolute;
 	top:100%;
 }
 .one{
-	left:600px;
+	left:10%;
 }
 .two{
-	left:860px;
+	left:30%;
 }
 .three{
-	left:1120px;
+	left:50%;
 }
 .section3-top,.section3-middle,.section3-bottom{
 	position:absolute;
-	top:80px;
+	top:18%;
 	left:0;
 	width:100%;
 	text-align: center;
 	color:white;
-	font:80px/1em "Helvetica Black" ;
+	font:4em/1em "Helvetica Black" ;
 }
 .section3-middle{
-	top:180px;
+	top:30%;
 	left:0;
 }
 .section3-bottom{
-	top:280px;
+	top:42%;
 	left:15%;
 	width:70%;
-	font:20px/1em "Helvetica Black" ;
+	font:1em/1em "Helvetica Black" ;
 }
 .s3l,.s3r{
 	display: inline-block;
@@ -145,21 +146,17 @@ a{
 }
 .len1,.len2,.len3{
 	width:100%;
-	height:120px;
+	height:20%;
 	position: absolute;
 	left:0;
 	bottom:-120px;
 }
-.lenimg{
-	width:100%;
-	height:100%;
-}
 .lenimgsm{
-	width:143px;
-	height:195px;
+	width:10%;
+	height:30%;
 	position:absolute;
 	left:50%;
-	margin-left: -112px;
+	margin-left:-5%;
 	bottom:-220px;
 }
 .lenimgsm img{
@@ -183,7 +180,7 @@ a{
 	bottom:50%;
 }
 .section4-middle,.section4-bottom{
-	font:80px/1em "Helvetica Black" ;
+	font:4em/1em "Helvetica Black" ;
 	color:#24354C;
 	position: absolute;
 	top:400px;
@@ -197,7 +194,7 @@ a{
 	position: absolute;
 	left:60px;
 	top:560px;
-	font:20px/1em "Helvetica Black" ;
+	font:1em/1em "Helvetica Black" ;
 	color:white;
 }
 .s4l,.s4r{
@@ -205,7 +202,7 @@ a{
 	margin-right: 10px;
 }
 .section5-top,.section5-middle,.section5-bottom{
-	font:80px/1em "Helvetica Black" ;
+	font:4em/1em "Helvetica Black" ;
 	position: absolute;
 	top:150px;
 	left:60px;
@@ -222,7 +219,7 @@ a{
 	position: absolute;
 	left:60px;
 	top:380px;
-	font:20px/1em "Helvetica Black" ;
+	font:1em/1em "Helvetica Black" ;
 	color:white;
 }
 .s5l,.s5r{
@@ -240,6 +237,9 @@ a{
 	top:200px;
 	right:130px;
 }
+.s5img2{
+	right:125px;
+}
 .dai{
 	width:102px;
 	height:120px;
@@ -247,23 +247,19 @@ a{
 	top:250px;
 	right:200px;
 }
-.s5img1 img,.s5img2 img,.dai img{
-	width:100%;
-	height:100%;
-}
 .hua{
 	position: absolute;
 	width:200px;
 	height:150px;
 	top:220px;
-	right:150px;
+	right:155px;
 }
 .hua img{
 	width:100%;
 	height:100%;
 }
 .section6-top{
-	font:80px/1em "Helvetica Black" ;
+	font:4em/1em "Helvetica Black" ;
 	color:white;
 	position: absolute;
 	top:100px;
@@ -274,7 +270,7 @@ a{
 	width:100%;
 	text-align: center;
 	color:white;
-	font:20px/1em "Helvetica Black";
+	font:1em/1em "Helvetica Black";
 	position: absolute;
 	top:200px;
 }
@@ -298,7 +294,7 @@ a{
 	margin-right: 10px;
 }
 .section7-top{
-	font:80px/1em "Helvetica Black" ;
+	font:4em/1em "Helvetica Black" ;
 	width:100%;
 	text-align: center;
 	position: absolute;
@@ -311,7 +307,7 @@ a{
 	position: absolute;
 	top:200px;
 	color:white;
-	font:22px/1em "Helvetica Black" ;
+	font:1.2em/1em "Helvetica Black" ;
 }
 
 .section7-bottom{
@@ -323,11 +319,11 @@ top:300px;
 width:30%;
 float:left;
 color:white;
-font:20px/1em "Helvetica Black" ;
+font:1em/1em "Helvetica Black" ;
 margin:0 10%;
 }
 .s7ll span,.s7rr span{
-	font:25px/1em "Helvetica Black" ;
+	font:1.2em/1em "Helvetica Black" ;
 	color:#67AF32;
 }
 .bl,.br{

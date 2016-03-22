@@ -1,7 +1,7 @@
 $(function(){
   
-   var demo1=function(){
-   	var arr=[{'0':'U'},{1:'N'},{2:'A'},{3:'B'},{4:'R'},{5:'I'},{6:'D'},
+      var demo1=function(){
+   	  var arr=[{'0':'U'},{1:'N'},{2:'A'},{3:'B'},{4:'R'},{5:'I'},{6:'D'},
              {7:'G'},{8:'E'},{9:'D'},{10:' '},{11:'S'},{12:'O'},{13:'F'},{14:'T'},
              {15:'W'},{16:'A'},{17:'R'},{18:'A'}]
       var str='';
@@ -16,7 +16,7 @@ $(function(){
     },100)
    }
 
-    var demo2=function(){
+      var demo2=function(){
     	var arr1=[{0:''},{1:'C'},{2:'O'},{3:'N'},{4:'V'},{5:'E'},{6:'R'},{7:'S'},
                {8:'A'},{9:'T'},{10:'I'},{11:'O'},{12:'N'}]
       var str1='';
@@ -31,7 +31,7 @@ $(function(){
     },100)
     }	
       var demo3=function(){
-    var arr2=[{0:'P'},{1:'L'},{2:'A'},{3:'N'}]
+      var arr2=[{0:'P'},{1:'L'},{2:'A'},{3:'N'}]
       var str2='';
       var i=0;
       var t=setInterval(function(){
@@ -43,8 +43,8 @@ $(function(){
       }
     },100)
    } 
-    var demo4=function(){
-    var arr3=[{0:'P'},{1:'R'},{2:'O'},{3:'D'},{4:'U'},{5:'C'},{6:'E'}]
+      var demo4=function(){
+      var arr3=[{0:'P'},{1:'R'},{2:'O'},{3:'D'},{4:'U'},{5:'C'},{6:'E'}]
       var str3='';
       var i=0;
       var t=setInterval(function(){
@@ -56,8 +56,8 @@ $(function(){
       }
     },100)
    } 
-    var demo5=function(){
-    var arr4=[{0:'D'},{1:'E'},{2:'L'},{3:'I'},{4:'V'},{5:'E'},{6:'R'}]
+      var demo5=function(){
+      var arr4=[{0:'D'},{1:'E'},{2:'L'},{3:'I'},{4:'V'},{5:'E'},{6:'R'}]
       var str4='';
       var i=0;
       var t=setInterval(function(){
@@ -69,8 +69,8 @@ $(function(){
       }
     },100)
    } 
-   var demo6=function(){
-    var arr5=[{0:'R'},{1:'E'},{2:'S'},{3:'U'},{4:'L'},{5:'T'},{6:'S'}]
+      var demo6=function(){
+      var arr5=[{0:'R'},{1:'E'},{2:'S'},{3:'U'},{4:'L'},{5:'T'},{6:'S'}]
       var str5='';
       var i=0;
       var t=setInterval(function(){
@@ -83,8 +83,8 @@ $(function(){
     },100)
    } 
 
-  var demo7=function(){
-    var arr5=[{0:'T'},{1:'A'},{2:'L'},{3:'K'}]
+      var demo7=function(){
+      var arr5=[{0:'T'},{1:'A'},{2:'L'},{3:'K'}]
       var str5='';
       var i=0;
       var t=setInterval(function(){
@@ -99,7 +99,7 @@ $(function(){
 
 	$('#fullpage').fullpage({
     
-		verticalCentered: true,
+		//verticalCentered: true,
 		resize : true,
 		sectionsColor: ["#24354C", "#67AF32", "#24354C", "#67AF32", "#24354C", "#67AF32", "#24354C"],
 		anchors: ["Introduction", "Conversation", "Plan", "Produce", "Deliver", "Results", "Talk"],
@@ -122,9 +122,9 @@ $(function(){
           onLeave: function(index, direction){
           switch(index){
             case 2:
-         move('.one').y(800).end()
-        .move('.two').y(800).end()
-        .move('.three').y(800).end();
+         move('.one').y(400).end()
+        .move('.two').y(400).end()
+        .move('.three').y(400).end();
         break;
         case 3:
         move('.lenimgsm').y(360).end()
@@ -139,9 +139,9 @@ $(function(){
 					break;
 					case 2:
 		      demo2();
-          move('.one').delay(1200).y(-520).duration(1000).end()
-          .move('.two').delay(1300).y(100).duration(1000).end()
-          .move('.three').delay(1400).y(-100).duration(1000).end();
+          move('.one').delay(1200).y(-140).duration(1000).end()
+          .move('.two').delay(1300).y(-30).duration(1000).end()
+          .move('.three').delay(1400).y(10).duration(1000).end();
 					break;
           case 3:
           demo3();
@@ -186,8 +186,27 @@ $(function(){
 				}
 				//alert(index)
 			}
-		
 	})
+
+  /* if(document.documentElement.clientWidth<500){
+        $('body').css({'fontSize':8});
+        $('.section1-middle').css({'width':'50%'});
+        $('.one').css({'height':'10%'});
+        $('.two').css({'height':'10%'});
+        $('.three').css({'height':'10%'});
+        $('.section3-top').css({'top':'20%'});
+        $('.section3-middle').css({'top':'25%'});
+        $('.section3-bottom').css({'top':'30%'});
+        $('.len1').css({'height':'8%'});
+        $('.len2').css({'height':'8%'});
+        $('.len3').css({'height':'8%'})
+        $('.lenimgsm').css({'width':'10%','height':'10%'});
+        var w=$(window).height();
+        $('.section-top').css({'height':'w/3'+'px'})
+        $('.section4-middle').css({'margin-top':'10%'})
+        $('.section4-bottom').css({'margin-top':'10%'})
+        $('.section4-last').css({'margin-top':'10%'})
+    }*/
 
    $('.nav-right').click(function(){
    	$('.all-list').slideToggle();
